@@ -49,7 +49,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'DjShop.urls'
+ROOT_URLCONF = 'TestDockerTravis.urls'
 
 TEMPLATES = [
     {
@@ -68,7 +68,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'DjShop.wsgi.application'
+WSGI_APPLICATION = 'TestDockerTravis.wsgi.application'
 
 
 # Database

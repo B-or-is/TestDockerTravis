@@ -1,5 +1,5 @@
 """
-ASGI config for DjShop project.
+ASGI config for TestDockerTravis project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'DjShop.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'TestDockerTravis.settings')
 
 application = get_asgi_application()
